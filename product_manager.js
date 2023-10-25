@@ -38,10 +38,9 @@ export default class ProductManager {
         }
         this.products.push(product);
       }
-      console.log(this.products);
       await fs.promises.writeFile(
         this.path,
-        JSON.stringify(products, null, "\t")
+        JSON.stringify(this.products, null, "\t")
       );
     } catch (error) {
       console.error(error.message);

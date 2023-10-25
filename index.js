@@ -19,6 +19,8 @@ const startProcess = async () => {
     stock: 10,
   });
   console.log(await pm.getProducts());
+  console.log(await pm.getProductById(2));
+  console.log(await pm.updateProduct(2, { title: "Perro" }));
 };
 
 // Flujo principal

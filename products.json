@@ -1,1 +1,1 @@
-[]
+"[\n\t{\n\t\t\"title\": \"Perro\",\n\t\t\"description\": \"coso\",\n\t\t\"price\": 200,\n\t\t\"thumbnail\": \"Ruta de vuelo\",\n\t\t\"code\": 200,\n\t\t\"stock\": 3,\n\t\t\"id\": 1\n\t},\n\t{\n\t\t\"title\": \"gato\",\n\t\t\"description\": \"etc\",\n\t\t\"price\": 150,\n\t\t\"thumbnail\": \"JOOJOJ\",\n\t\t\"code\": 201,\n\t\t\"stock\": 10,\n\t\t\"id\": 2\n\t}\n]"
