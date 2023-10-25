@@ -67,11 +67,12 @@ export default class ProductManager {
       if (productIndex === -1) {
         console.log("Product not found");
       } else {
+        newProduct.id = id;
         productsJson[productIndex] = newProduct;
       }
       return await fs.promises.writeFile(
         this.path,
-        JSON.stringify(products, null, "\t")
+        JSON.stringify(productsJson, null, "\t")
       );
     } catch (error) {
       console.error(error.message);
