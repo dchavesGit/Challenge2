@@ -91,7 +91,7 @@ export default class ProductManager {
       }
       await fs.promises.writeFile(
         this.path,
-        JSON.stringify(products, null, "\t")
+        JSON.stringify(productsJson, null, "\t")
       );
     } catch (error) {
       console.error(error.message);

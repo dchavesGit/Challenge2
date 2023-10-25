@@ -30,6 +30,7 @@ const startProcess = async () => {
       stock: 3,
     })
   );
+  await pm.deleteProducts(2);
 };
 
 // Flujo principal
